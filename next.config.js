@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  i18n:{
+    locales: ['es'],
+    defaultLocale: 'es',
+    localeDetection: false,
+  },
   webpack(config, options){
     config.module.rules.push({
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
@@ -19,7 +24,6 @@ const nextConfig = {
         },
       ],
     });
-
     return config;
   },
 }
