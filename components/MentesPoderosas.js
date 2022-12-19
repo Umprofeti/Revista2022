@@ -8,7 +8,7 @@ import { AudioTag } from "./audioTag";
 export const MentesPoderosas = ({Width})=> {
     return (
         <>
-            <div>
+            <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='MENTES PODEROSAS'/>
                 <div className="">
                     <AudioTag Source={audioRaiza} Name={'RaizaAudio'}/>
@@ -24,7 +24,7 @@ export const MentesPoderosas = ({Width})=> {
                     
                 </div>
             </div>
-            <div>
+            <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='MENTES PODEROSAS'/>
                 <Image src={Orlando.src}
                         width={Width}

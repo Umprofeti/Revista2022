@@ -6,7 +6,7 @@ import Beatriz from '../public/static/images/BEATRICE.png'
 export const Morloports = ({Width}) => {
     return(
         <>
-            <div>
+            <div className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='MARLOPORTS'/>
                 <Image src={Beatriz.src}
                         width={Width}
@@ -15,7 +15,7 @@ export const Morloports = ({Width}) => {
                         alt="marlo-1"
                 />
             </div>
-            <div>
+            <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='MARLOPORTS'/>
                 <Image src={Nautico.src}
                         width={Width}

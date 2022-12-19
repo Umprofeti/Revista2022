@@ -8,7 +8,7 @@ import { AudioTag } from "./audioTag";
 export const Delujo = ({Width}) => {
     return (
         <>  
-            <div>
+            <div  className="bg-white my-2 shadow-xl"> 
                 <HeaderPag Title='DELUJO'/>
                 <Image src={Tous.src}
                         width={Width}
@@ -17,7 +17,7 @@ export const Delujo = ({Width}) => {
                         alt="DJ-1"
                 />
             </div>
-            <div className="my-1">
+            <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='DELUJO'/>
                 <div>
                     <AudioTag Source={audioRoxana} Name={'RoxanaAudio'}/>

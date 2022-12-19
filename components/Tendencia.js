@@ -6,7 +6,7 @@ import Diego from '../public/static/images/DIEGO-VARGAS.png'
 export const Tendencia = ({Width}) => {
     return (
         <>
-            <div>
+            <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='TENDENCIA'/>
                 <Image src={Tatto.src}
                         width={Width}
@@ -15,7 +15,7 @@ export const Tendencia = ({Width}) => {
                         alt="Tendencia-1"
                 />
             </div>
-            <div>
+            <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='TENDENCIA'/>
                 <Image src={Diego.src}
                         width={Width}

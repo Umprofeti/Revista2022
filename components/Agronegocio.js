@@ -5,8 +5,8 @@ import { HeaderPag } from './Header'
 
 export const Agronegocio = ({Width}) => {
     return (
-        <>
-            <div>
+        <div className=''>
+            <div className='bg-white my-2 shadow-xl'>
                 <HeaderPag Title='AGRONEGOCIO'/>
                 <div className=' md:hidden'>
                     <ReactPlayer url='https://www.youtube.com/watch?v=sn-CgB2BLg4&feature=youtu.be'  width='100%' height='300px'/> 
@@ -15,7 +15,7 @@ export const Agronegocio = ({Width}) => {
                     <ReactPlayer url='https://www.youtube.com/watch?v=sn-CgB2BLg4&feature=youtu.be'  width='100%' height='600px'/> 
                 </div> 
             </div>
-            <div>
+            <div className='bg-white my-2 shadow-xl'>
                 <HeaderPag Title='AGRONEGOCIO'/>
                 <Image src={Fatima.src}
                         width={Width}
@@ -24,6 +24,6 @@ export const Agronegocio = ({Width}) => {
                         alt='Agro-2'
                 />
             </div>
-        </>
+        </div>
     )
 }

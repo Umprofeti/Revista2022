@@ -7,28 +7,34 @@ import TableDream from '../public/static/images/TABLE-DREAM.png'
 export const Sociedad = ({Width}) => {
     return (
         <>
-            <div>
-                <HeaderPag Title='SOCIEDAD'/>
-                <Image src={Boda.src}
-                        width={Width}
-                        height={Width}
-                        className="w-full"
-                        alt="Sociedad-1"
-                />
-                <HeaderPag Title='SOCIEDAD'/>
-                <Image src={Panoleta.src}
-                        width={Width}
-                        height={Width}
-                        className="w-full"
-                        alt="Sociedad-2"
-                />
-                <HeaderPag Title='SOCIEDAD'/>
-                <Image src={TableDream.src}
-                        width={Width}
-                        height={Width}
-                        className="w-full my-1"
-                        alt="Sociedad-3"
-                />
+            <div  >
+                <div className="bg-white my-2 shadow-xl">
+                    <HeaderPag Title='SOCIEDAD'/>
+                    <Image src={Boda.src}
+                            width={Width}
+                            height={Width}
+                            className="w-full"
+                            alt="Sociedad-1"
+                    />
+                </div>
+                <div className="bg-white my-2 shadow-xl">
+                    <HeaderPag Title='SOCIEDAD'/>
+                    <Image src={Panoleta.src}
+                            width={Width}
+                            height={Width}
+                            className="w-full"
+                            alt="Sociedad-2"
+                    />
+                </div>
+                <div className="bg-white my-2 shadow-xl">
+                    <HeaderPag Title='SOCIEDAD'/>
+                    <Image src={TableDream.src}
+                            width={Width}
+                            height={Width}
+                            className="w-full my-1"
+                            alt="Sociedad-3"
+                    />
+                </div>
             </div>
         </>
     )

@@ -5,23 +5,23 @@ import Contenido3 from '../public/static/images/CONTENIDO-(PAG3).png'
 
 export const Contenido = ({Width})=> {
     return (
-        <div>
+        <div className='my-2'>
           <Image src={ContenidoPag.src}
                 width={Width}
                 height={Width}
-                className="w-full"
+                className="w-full my-2 shadow-xl"
                 alt='Contenido-1'
           />
           <Image src={Contenido2.src}
                 width={Width}
                 height={Width}
-                className="w-full"
+                className="w-full my-2 shadow-xl"
                 alt='Contenido-2'
           />
           <Image src={Contenido3.src}
                 width={Width}
                 height={Width}
-                className="w-full"
+                className="w-full my-2 shadow-xl"
                 alt='Contenido-3'
           />
         </div>
