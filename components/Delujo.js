@@ -12,7 +12,7 @@ export const Delujo = ({Width}) => {
                 <HeaderPag Title='DELUJO'/>
                 <Image src={Tous.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt="DJ-1"
                 />
@@ -23,7 +23,7 @@ export const Delujo = ({Width}) => {
                     <AudioTag Source={audioRoxana} Name={'RoxanaAudio'}/>
                     <Image src={Roxana.src}
                             width={Width}
-                            height={Width}
+                            height={0}
                             className="w-full mt-[-15%] md:mt-[-5%]"
                             alt="DJ-2"
                     />

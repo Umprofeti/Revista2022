@@ -30,7 +30,7 @@ export const AudioTag = ({Source, Name}) => {
 
     return (
         <div>
-            <audio preload="true" className='Audio' id={Name} >
+            <audio  className='Audio' id={Name} >
                     <source src={Source}  type='audio/mpeg'/>
             </audio>
             <div className='flex flex-row justify-center w-[15%] left-[80%] align-middle md:w-[10%] text-[1.5rem] rounded-md shadow-xl xl:text-[2.5rem] text-white bg-black relative top-[9vw] md:left-[85%]'>

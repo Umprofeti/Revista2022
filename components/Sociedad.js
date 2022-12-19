@@ -12,7 +12,7 @@ export const Sociedad = ({Width}) => {
                     <HeaderPag Title='SOCIEDAD'/>
                     <Image src={Boda.src}
                             width={Width}
-                            height={Width}
+                            height={0}
                             className="w-full"
                             alt="Sociedad-1"
                     />
@@ -21,7 +21,7 @@ export const Sociedad = ({Width}) => {
                     <HeaderPag Title='SOCIEDAD'/>
                     <Image src={Panoleta.src}
                             width={Width}
-                            height={Width}
+                            height={0}
                             className="w-full"
                             alt="Sociedad-2"
                     />
@@ -30,7 +30,7 @@ export const Sociedad = ({Width}) => {
                     <HeaderPag Title='SOCIEDAD'/>
                     <Image src={TableDream.src}
                             width={Width}
-                            height={Width}
+                            height={0}
                             className="w-full my-1"
                             alt="Sociedad-3"
                     />

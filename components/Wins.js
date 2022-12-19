@@ -13,7 +13,7 @@ export const Wins = ({Width}) => {
               <AudioTag Source={audioWins} Name={'WinsAudio'} />
               <Image src={WinsImage.src}
                     width={Width}
-                    height={Width}
+                    height={0}
                     className="w-full"
                     alt="Wins"
               />

@@ -25,7 +25,7 @@ export const Empresarios = ({Width}) => {
               <AudioTag Source={audioArline} Name={'ArlineAudio'} />
               <Image src={Arline.src}
                       width={Width}
-                      height={Width}
+                      height={0}
                       className="w-full mt-[-5%]"
                       alt='E-1'
               />

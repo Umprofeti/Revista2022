@@ -37,14 +37,15 @@ import ContraPortada from '../public/static/images/VILARNAU-CONTRAPORTADA.png'
 export default function Home() {
 
   const width = 1500;
+  const Height = 0;
 
   return (
     <>
       <Head>
-        <title>RENDEZVOUS VOL2</title>
+        <title>RENDEZVOUS VOL.2</title>
         <meta name="description" content="Revista RendezVous Segunda Edicion 2022" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:image" content={Portada.src}/>
+        <meta property="og:image" content={`https://pruebarevista.rendezvouscorp.com${Portada.src}`}/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-logo-pattern bg-fixed bg-cover flex justify-center items-center">
@@ -53,14 +54,14 @@ export default function Home() {
           <div>
               <Image src={Portada.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='Portada'
               />
               {/* AD-Tous */}
               <Image src={ad1.src}
                     width={width}
-                    height={width}
+                    height={Height}
                     className="w-full my-2 shadow-xl"
                     alt='ad-1'
               />
@@ -72,7 +73,7 @@ export default function Home() {
           <div className=''>
               <Image src={Staff.src}
                     width={width}
-                    height={width}
+                    height={Height}
                     className="w-full shadow-xl"
                     alt='Staff'
               />
@@ -82,14 +83,14 @@ export default function Home() {
             <HeaderPag Title=''/>
               <Image src={CartaEditorial.src}
                     width={width}
-                    height={width}
+                    height={Height}
                     className="w-full"
                     alt='Carta editorial'
             />
           </div>
           <Image src={Joyeria.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='Joyeria'
           />
@@ -97,7 +98,7 @@ export default function Home() {
           {/* AD2 */}
           <Image src={ad3.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-3'
           />
@@ -106,7 +107,7 @@ export default function Home() {
           <div className='mt-[14%] shadow-xl'>
             <Image src={ad2.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='ad-2'
           />
@@ -115,7 +116,7 @@ export default function Home() {
           {/* AD4 */}
           <Image src={adVLCK5.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='Anuncio VLCK-4'
           />
@@ -123,7 +124,7 @@ export default function Home() {
           {/* AD5 */}
           <Image src={ad4.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='Anuncio 4'
           />
@@ -131,7 +132,7 @@ export default function Home() {
           {/* AD6 */}
           <Image src={ad5.src}
                   width={width}
-                  height={width}
+                  height={Height}
                   className="w-full my-2 shadow-xl"
                   alt='Anuncio Border Village'
           />
@@ -139,7 +140,7 @@ export default function Home() {
           {/* AD7 */} 
             <Image src={adVLCK3.src}
                   width={width}
-                  height={width}
+                  height={Height}
                   className="w-full"
                   alt='Anuncio VLCK-3'
             />
@@ -147,14 +148,14 @@ export default function Home() {
             <HeaderPag Title='TINTA DE ORO'/>
             <Image src={Tinta.src}
                     width={width}
-                    height={width}
+                    height={Height}
                     className="w-full my-2 shadow-xl"
                     alt='Tinta de Oro'
             />
           </div>
             <Image src={adVLCK4.src}
                   width={width}
-                  height={width}
+                  height={Height}
                   className="w-full"
                   alt='Anuncio VLCK-3'
             />
@@ -163,35 +164,35 @@ export default function Home() {
             <HeaderPag Title='CÁPSULA'/>
             <Image src={Capsula.src}
                     width={width}
-                    height={width}
+                    height={Height}
                     className="w-full my-2 shadow-xl"
                     alt='Cápsula'
             /> 
           </div>
           <Image src={adVLCK2.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-4'
           />
           <Tendencia Width={width}/>
           <Image src={ad7.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
           <Gastronomia/>
           <Image src={adVLCK1.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
           <Sociedad Width={width} />
           <Image src={ad6.src}
                 width={width}
-                height={width}
+                height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
@@ -199,7 +200,7 @@ export default function Home() {
           <div>
             <Image src={ContraPortada.src}
                     width={width}
-                    height={width}
+                    height={Height}
                     className="w-full my-2 shadow-xl"
                     alt='Contra Portada'
             />

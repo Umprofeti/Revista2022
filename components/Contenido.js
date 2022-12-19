@@ -8,19 +8,19 @@ export const Contenido = ({Width})=> {
         <div >
           <Image src={ContenidoPag.src}
                 width={Width}
-                height={Width}
+                height={0}
                 className="w-full mb-2 shadow-xl"
                 alt='Contenido-1'
           />
           <Image src={Contenido2.src}
                 width={Width}
-                height={Width}
+                height={0}
                 className="w-full my-2 shadow-xl"
                 alt='Contenido-2'
           />
           <Image src={Contenido3.src}
                 width={Width}
-                height={Width}
+                height={0}
                 className="w-full my-2 shadow-xl"
                 alt='Contenido-3'
           />

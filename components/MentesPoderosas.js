@@ -14,21 +14,17 @@ export const MentesPoderosas = ({Width})=> {
                     <AudioTag Source={audioRaiza} Name={'RaizaAudio'}/>
                     <Image src={Raiza.src}
                             width={Width}
-                            height={Width}
+                            height={0}
                             className="w-full  mt-[-10%] md:mt-[-5%]"
                             alt="MP-1"
                     />
-                    {/* <audio controls={true} preload="true" className='w-full rounded-full mb-9 md:shadow-xl md:mb-0 md:w-[45%] md:relative md:bottom-[11vw] md:left-[53%]' >
-                        <source src={audioRaiza}  type='audio/mpeg'/>
-                    </audio> */}
-                    
                 </div>
             </div>
             <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='MENTES PODEROSAS'/>
                 <Image src={Orlando.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt="MP-2"
                 />

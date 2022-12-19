@@ -10,7 +10,7 @@ export const Tendencia = ({Width}) => {
                 <HeaderPag Title='TENDENCIA'/>
                 <Image src={Tatto.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt="Tendencia-1"
                 />
@@ -19,7 +19,7 @@ export const Tendencia = ({Width}) => {
                 <HeaderPag Title='TENDENCIA'/>
                 <Image src={Diego.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt="Tendencia-2"
                 />

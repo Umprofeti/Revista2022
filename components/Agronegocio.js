@@ -14,7 +14,7 @@ export const Agronegocio = ({Width}) => {
                 <HeaderPag Title='AGRONEGOCIO'/>
                 <Image src={Fatima.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt='Agro-2'
                 />

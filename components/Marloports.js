@@ -10,7 +10,7 @@ export const Morloports = ({Width}) => {
                 <HeaderPag Title='MARLOPORTS'/>
                 <Image src={Beatriz.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt="marlo-1"
                 />
@@ -19,7 +19,7 @@ export const Morloports = ({Width}) => {
                 <HeaderPag Title='MARLOPORTS'/>
                 <Image src={Nautico.src}
                         width={Width}
-                        height={Width}
+                        height={0}
                         className="w-full"
                         alt="marlo-2"
                 />
