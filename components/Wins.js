@@ -7,7 +7,7 @@ import { AudioTag } from "./audioTag";
 
 export const Wins = ({Width}) => {
     return(
-        <div className="bg-white mt-2 shadow-xl">
+        <div className="bg-white mb-2 shadow-xl">
             <HeaderPag Title='PORTADA'/>
             <div className="mt-[-5%]">
               <AudioTag Source={audioWins} Name={'WinsAudio'} />

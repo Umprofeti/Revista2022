@@ -11,16 +11,21 @@ import { Tendencia } from '../components/Tendencia'
 import { Wins } from '../components/Wins'
 import { Sociedad } from '../components/Sociedad'
 import { Gastronomia } from '../components/Gastronomia'
-import { AudioTag } from '../components/audioTag'
 
 /* Imagenes */
 import Portada from '../public/static/images/portada-2022-RV.jpg'
+import adVLCK1 from '../public/static/images/VLCK-AD-1.png'
+import adVLCK2 from '../public/static/images/VLCK-AD-2.png'
+import adVLCK3 from '../public/static/images/VLCK-AD-3.png'
+import adVLCK4 from '../public/static/images/VLCK-AD-4.png'
+import adVLCK5 from '../public/static/images/VLCK-AD-5.png'
 import ad1 from '../public/static/images/TOUS-AD.png'
 import ad4 from '../public/static/images/AN.png'
 import ad3 from '../public/static/images/SAMSUNG.jpg'
 import ad2 from '../public/static/images/REDMARLA.png'
 import ad5 from '../public/static/images/BODERVILLAGE.png'
 import ad6 from '../public/static/images/FSarte.png'
+import ad7 from '../public/static/images/BEATRIz-AD.png'
 import Joyeria from '../public/static/images/JOYERIA-RV.png'
 import Capsula from '../public/static/images/CAPSULA.png'
 import Staff from '../public/static/images/STAFF-(PAG).png'
@@ -53,14 +58,12 @@ export default function Home() {
                 alt='Portada'
               />
               {/* AD-Tous */}
-              <a href='https://www.tous.com/ic-es/'>
-                <Image src={ad1.src}
+              <Image src={adVLCK1.src}
                   width={width}
                   height={width}
                   className="w-full my-2 shadow-xl"
                   alt='Anuncio Tous'
-                />
-              </a>
+              />
           </div>
           {/* Contenido */}
           <Contenido Width={width}/>
@@ -85,52 +88,53 @@ export default function Home() {
           </div>
           <Wins Width={width} />
           {/* AD2 */}
-          <Image src={ad2.src}
+          <Image src={adVLCK2.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
-                alt='Anuncio-2'
+                alt='Anuncio VLCK-2'
           />
           <Empresarios Width={width} />
           {/* AD3 */}
           <div className='mt-[14%] shadow-xl'>
-            <Image src={ad3.src}
+            <Image src={adVLCK3.src}
                   width={width}
                   height={width}
                   className="w-full"
-                  alt='Anuncio-3'
+                  alt='Anuncio VLCK-3'
             />
           </div>
           <Agronegocio  Width={width}/>
           {/* AD4 */}
-          <Image src={ad4.src}
+          <Image src={adVLCK4.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
-                alt='Anuncio-4'
+                alt='Anuncio VLCK-4'
           />
           <Morloports Width={width}/>
           {/* AD5 */}
-          <Image src={ad5.src}
+          <Image src={adVLCK5.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
-                alt='Anuncio-5'
+                alt='Anuncio VLCK-5'
           />
           <MentesPoderosas Width={width}/>
           {/* AD6 */}
-          <Image src={ad6.src}
+          <Image src={ad1.src}
                     width={width}
                     height={width}
                     className="w-full my-2 shadow-xl"
+                    alt='ad-|'
           />
           <Delujo  Width={width}/>
           {/* AD7 */} 
-          <Image src={Joyeria.src}
+          <Image src={ad2.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
-                alt='Joyeria'
+                alt='ad-2'
           />
           <div  className="bg-white my-2 shadow-xl">
             <HeaderPag Title='TINTA DE ORO'/>
@@ -141,6 +145,12 @@ export default function Home() {
                     alt='Tinta de Oro'
             />
           </div>
+          <Image src={ad3.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='AD-3'
+          />
           {/* CAPSULA */} 
           <div  className="bg-white my-2 shadow-xl">
             <HeaderPag Title='CÁPSULA'/>
@@ -151,9 +161,33 @@ export default function Home() {
                     alt='Cápsula'
             /> 
           </div>
+          <Image src={ad4.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='AD-4'
+          />
           <Tendencia Width={width}/>
+          <Image src={ad5.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='AD-5'
+          />
           <Gastronomia/>
+          <Image src={ad6.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='AD-5'
+          />
           <Sociedad Width={width} />
+          <Image src={ad7.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='AD-5'
+          />
           {/* Contraportada */}
           <div>
             <Image src={ContraPortada.src}
