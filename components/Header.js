@@ -8,8 +8,8 @@ export const HeaderPag = ({Title}) =>{
                     <span className='subtitle ml-24 font-Karla'>magazine</span>
                 </div>
                 <div className='Edition border-t-2 border-b-2 px-2 border-black flex items-stretch place-content-between'>
-                    <p className=' ml-5 text-sm font-Lato mt-1 mb-1'> Diciembre 2022</p>
-                    <p className=' ml-5 text-sm font-Lato mt-1 mb-1'>Panamá y Latinoamérica</p>
+                    <div className=' ml-5 text-sm font-Lato mt-1 mb-1'> Diciembre 2022</div>
+                    <div className=' ml-5 text-sm font-Lato mt-1 mb-1'>Panamá y Latinoamérica</div>
                 </div>
                 <div className='border-b-7 border-black'>
                     <h3 className='font-Playfair text-4xl font-bold mb-3 mt-1 text-center'>{Title}</h3>

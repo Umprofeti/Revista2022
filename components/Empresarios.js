@@ -4,19 +4,20 @@ import audioArline from '../public/static/audio/ARLINE_FRANCIS.ogg'
 import { HeaderPag } from './Header'
 import { AudioTag } from './audioTag'
 import ReactPlayer from 'react-player'
+import { useState, useEffect } from 'react'
+import { YoutubeEmeded } from './YoutubeEmbeded'
 
 export const Empresarios = ({Width}) => {
-    
+  const [hasWindow, setHasWindow] = useState(false);
+  useEffect(()=> {
+    setHasWindow(true)
+  }, [])
+
     return(
         <div className='mb-[-12%] '>
           <div className='bg-white shadow-xl'>
             <HeaderPag Title='EMPRESARIOS'/>
-            <div className=' md:hidden'>
-                <ReactPlayer url='https://www.youtube.com/watch?v=KsMY12Xis8A'  width='100%' height='300px'/> 
-            </div>
-            <div className='hidden md:block'>
-              <ReactPlayer url='https://www.youtube.com/watch?v=KsMY12Xis8A'  width='100%' height='600px'/> 
-            </div> 
+            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=KsMY12Xis8A'} />
           </div>
           <div className='bg-white shadow-xl'>
             <HeaderPag Title='EMPRESARIOS'/>

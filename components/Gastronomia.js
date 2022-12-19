@@ -1,6 +1,5 @@
-import Image from "next/image";
 import { HeaderPag } from "./Header";
-import ReactPlayer from 'react-player';
+import { YoutubeEmeded } from "./YoutubeEmbeded";
 
 
 export const Gastronomia = () => {
@@ -8,12 +7,7 @@ export const Gastronomia = () => {
         <>
             <div  className="bg-white my-2 shadow-xl">
                 <HeaderPag Title='GASTRONOMÍA'/>
-                <div className=' md:hidden'>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=GsnSiqP7Yxk&feature=youtu.be'  width='100%' height='300px'/> 
-                </div>
-                <div className='hidden md:block'>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=GsnSiqP7Yxk&feature=youtu.be'  width='100%' height='600px'/> 
-                </div> 
+                <YoutubeEmeded Url={'https://www.youtube.com/watch?v=GsnSiqP7Yxk&feature=youtu.be'} />
             </div>
         </>
     )
