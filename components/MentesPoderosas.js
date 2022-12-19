@@ -10,12 +10,12 @@ export const MentesPoderosas = ({Width})=> {
         <>
             <div>
                 <HeaderPag Title='MENTES PODEROSAS'/>
-                <div>
+                <div className="">
                     <AudioTag Source={audioRaiza} Name={'RaizaAudio'}/>
                     <Image src={Raiza.src}
                             width={Width}
                             height={Width}
-                            className="w-full"
+                            className="w-full  mt-[-10%] md:mt-[-5%]"
                             alt="MP-1"
                     />
                     {/* <audio controls={true} preload="true" className='w-full rounded-full mb-9 md:shadow-xl md:mb-0 md:w-[45%] md:relative md:bottom-[11vw] md:left-[53%]' >

@@ -8,11 +8,12 @@ export const Gastronomia = () => {
         <>
             <div>
                 <HeaderPag Title='GASTRONOMÍA'/>
-                {/* <Image src={Diego.src}
-                        width={width}
-                        height={width}
-                        className="w-full"
-                /> */}
+                <div className=' md:hidden'>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=GsnSiqP7Yxk&feature=youtu.be'  width='100%' height='300px'/> 
+                </div>
+                <div className='hidden md:block'>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=GsnSiqP7Yxk&feature=youtu.be'  width='100%' height='600px'/> 
+                </div> 
             </div>
         </>
     )

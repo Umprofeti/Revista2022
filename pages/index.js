@@ -20,6 +20,7 @@ import ad4 from '../public/static/images/AN.png'
 import ad3 from '../public/static/images/SAMSUNG.jpg'
 import ad2 from '../public/static/images/REDMARLA.png'
 import ad5 from '../public/static/images/BODERVILLAGE.png'
+import ad6 from '../public/static/images/FSarte.png'
 import Joyeria from '../public/static/images/JOYERIA-RV.png'
 import Capsula from '../public/static/images/CAPSULA.png'
 import Staff from '../public/static/images/STAFF-(PAG).png'
@@ -35,7 +36,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Revista RENDEZVOUS VOL2</title>
+        <title>RENDEZVOUS VOL2</title>
         <meta name="description" content="Revista RendezVous Segunda Edicion 2022" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:image" content={Portada.src}/>
@@ -64,7 +65,7 @@ export default function Home() {
           {/* Contenido */}
           <Contenido Width={width}/>
           {/* Staff */}
-          <div>
+          <div className='mt-3'>
               <Image src={Staff.src}
                     width={width}
                     height={width}
@@ -73,7 +74,7 @@ export default function Home() {
               />
           </div>
           {/* Carta Editorial */}
-          <div>
+          <div className='mt-3'>
             <HeaderPag Title=''/>
               <Image src={CartaEditorial.src}
                     width={width}
@@ -105,7 +106,7 @@ export default function Home() {
           <Image src={ad4.src}
                 width={width}
                 height={width}
-                className="w-full"
+                className="w-full my-3"
                 alt='Anuncio-4'
           />
           <Morloports Width={width}/>
@@ -118,6 +119,11 @@ export default function Home() {
           />
           <MentesPoderosas Width={width}/>
           {/* AD6 */}
+          <Image src={ad6.src}
+                    width={width}
+                    height={width}
+                    className="w-full my-1"
+          />
           <Delujo  Width={width}/>
           {/* AD7 */} 
           <Image src={Joyeria.src}

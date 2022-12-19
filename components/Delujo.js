@@ -17,15 +17,15 @@ export const Delujo = ({Width}) => {
                         alt="DJ-1"
                 />
             </div>
-            <div>
+            <div className="my-1">
                 <HeaderPag Title='DELUJO'/>
                 <div>
                     <AudioTag Source={audioRoxana} Name={'RoxanaAudio'}/>
                     <Image src={Roxana.src}
                             width={Width}
                             height={Width}
-                            className="w-full md:mt-[-5%]"
-                            alt="DJ-1"
+                            className="w-full mt-[-15%] md:mt-[-5%]"
+                            alt="DJ-2"
                     />
                 </div>
             </div>
