@@ -36,7 +36,7 @@ import ContraPortada from '../public/static/images/VILARNAU-CONTRAPORTADA.png'
 
 export default function Home() {
 
-  const width = 2000;
+  const width = 1500;
 
   return (
     <>
@@ -58,12 +58,13 @@ export default function Home() {
                 alt='Portada'
               />
               {/* AD-Tous */}
-              <Image src={adVLCK1.src}
-                  width={width}
-                  height={width}
-                  className="w-full my-2 shadow-xl"
-                  alt='Anuncio Tous'
+              <Image src={ad1.src}
+                    width={width}
+                    height={width}
+                    className="w-full my-2 shadow-xl"
+                    alt='ad-1'
               />
+              
           </div>
           {/* Contenido */}
           <Contenido Width={width}/>
@@ -86,27 +87,33 @@ export default function Home() {
                     alt='Carta editorial'
             />
           </div>
-          <Wins Width={width} />
-          {/* AD2 */}
-          <Image src={adVLCK2.src}
+          <Image src={Joyeria.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
-                alt='Anuncio VLCK-2'
+                alt='Joyeria'
+          />
+          <Wins Width={width} />
+          {/* AD2 */}
+          <Image src={ad3.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='AD-3'
           />
           <Empresarios Width={width} />
           {/* AD3 */}
           <div className='mt-[14%] shadow-xl'>
-            <Image src={adVLCK3.src}
-                  width={width}
-                  height={width}
-                  className="w-full"
-                  alt='Anuncio VLCK-3'
-            />
+            <Image src={ad2.src}
+                width={width}
+                height={width}
+                className="w-full my-2 shadow-xl"
+                alt='ad-2'
+          />
           </div>
           <Agronegocio  Width={width}/>
           {/* AD4 */}
-          <Image src={adVLCK4.src}
+          <Image src={adVLCK5.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
@@ -114,28 +121,28 @@ export default function Home() {
           />
           <Morloports Width={width}/>
           {/* AD5 */}
-          <Image src={adVLCK5.src}
+          <Image src={ad4.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
-                alt='Anuncio VLCK-5'
+                alt='Anuncio 4'
           />
           <MentesPoderosas Width={width}/>
           {/* AD6 */}
-          <Image src={ad1.src}
-                    width={width}
-                    height={width}
-                    className="w-full my-2 shadow-xl"
-                    alt='ad-|'
+          <Image src={ad5.src}
+                  width={width}
+                  height={width}
+                  className="w-full my-2 shadow-xl"
+                  alt='Anuncio Border Village'
           />
           <Delujo  Width={width}/>
           {/* AD7 */} 
-          <Image src={ad2.src}
-                width={width}
-                height={width}
-                className="w-full my-2 shadow-xl"
-                alt='ad-2'
-          />
+            <Image src={adVLCK3.src}
+                  width={width}
+                  height={width}
+                  className="w-full"
+                  alt='Anuncio VLCK-3'
+            />
           <div  className="bg-white my-2 shadow-xl">
             <HeaderPag Title='TINTA DE ORO'/>
             <Image src={Tinta.src}
@@ -145,12 +152,12 @@ export default function Home() {
                     alt='Tinta de Oro'
             />
           </div>
-          <Image src={ad3.src}
-                width={width}
-                height={width}
-                className="w-full my-2 shadow-xl"
-                alt='AD-3'
-          />
+            <Image src={adVLCK4.src}
+                  width={width}
+                  height={width}
+                  className="w-full"
+                  alt='Anuncio VLCK-3'
+            />
           {/* CAPSULA */} 
           <div  className="bg-white my-2 shadow-xl">
             <HeaderPag Title='CÁPSULA'/>
@@ -161,28 +168,28 @@ export default function Home() {
                     alt='Cápsula'
             /> 
           </div>
-          <Image src={ad4.src}
+          <Image src={adVLCK2.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
                 alt='AD-4'
           />
           <Tendencia Width={width}/>
-          <Image src={ad5.src}
+          <Image src={ad7.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
           <Gastronomia/>
-          <Image src={ad6.src}
+          <Image src={adVLCK1.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
           <Sociedad Width={width} />
-          <Image src={ad7.src}
+          <Image src={ad6.src}
                 width={width}
                 height={width}
                 className="w-full my-2 shadow-xl"
