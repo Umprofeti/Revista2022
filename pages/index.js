@@ -60,18 +60,18 @@ export default function Home() {
         <meta name="description" content="Revista RendezVous Segunda Edicion 2022" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
-        <meta property="og:url" content="https://pruebarevista.rendezvouscorp.com"/>
+        <meta property="og:url" content="https://revista.rendezvouscorp.com"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="RENDEZVOUS VOL.2"/>
         <meta property="og:description" content="Revista RendezVous Segunda Edicion 2022"/>
-        <meta property="og:image" content={`https://pruebarevista.rendezvouscorp.com${Portada.src}`}/>
+        <meta property="og:image" content={`https://revista.rendezvouscorp.com${Portada.src}`}/>
 
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:domain" content="pruebarevista.rendezvouscorp.com"/>
-        <meta property="twitter:url" content="https://pruebarevista.rendezvouscorp.com"/>
+        <meta property="twitter:domain" content="revista.rendezvouscorp.com"/>
+        <meta property="twitter:url" content="https://revista.rendezvouscorp.com"/>
         <meta name="twitter:title" content="RENDEZVOUS VOL.2"/>
         <meta name="twitter:description" content="Revista RendezVous Segunda Edicion 2022"/>
-        <meta name="twitter:image" content={`https://pruebarevista.rendezvouscorp.com${Portada.src}`}/>
+        <meta name="twitter:image" content={`https://revista.rendezvouscorp.com${Portada.src}`}/>
         
         <link rel="icon" href="/favicon.ico" />
       </Head>
