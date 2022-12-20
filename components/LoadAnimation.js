@@ -10,6 +10,7 @@ export const LoadAnimation = () => {
                         width={1000}
                         height={0}
                         className="animate-ping w-1/2"
+                        alt="Logo RV"
                 />
                 <div className="text-md md:text-2xl text-center">
                     Cargando Revista ...

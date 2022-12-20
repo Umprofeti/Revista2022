@@ -170,7 +170,7 @@ export default function Home() {
               <Image src={Tinta.src}
                       width={width}
                       height={Height}
-                      className="w-full shadow-xl"
+                      className="w-full shadow-xl mt-[-5%]"
                       alt='Tinta de Oro'
               />
             </div>
