@@ -10,7 +10,7 @@ export const YoutubeEmeded = ({Url}) => {
     return(
         <>
             <div className='block'>
-              {/* {hasWindow && <ReactPlayer url={Url} controls={true} width='100%' height='350px'/>} */} 
+              {hasWindow && <ReactPlayer url={Url} controls={true} width='100%' height='350px'/>}
             </div> 
         </>
     )
