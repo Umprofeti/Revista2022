@@ -34,6 +34,9 @@ import CartaEditorial from '../public/static/images/CARTA-EDITORIAL-(PAG).png'
 import Tinta from '../public/static/images/TINTA-DE-ORO-(PAG).png'
 import ContraPortada from '../public/static/images/VILARNAU-CONTRAPORTADA.png'
 import { LoadAnimation } from '../components/LoadAnimation'
+import { AudioTag } from '../components/audioTag'
+import TintaAudio from '../public/static/audio/IM A REMARKABLE.mp3'
+import Marlo from '../public/static/images/MARLOPORT.png'
 
 
 export default function Home() {
@@ -76,7 +79,12 @@ export default function Home() {
                     className="w-full my-2 shadow-xl"
                     alt='ad-1'
               />
-              
+              <Image src={Marlo.src}
+                    width={width}
+                    height={Height}
+                    className="w-full my-2 shadow-xl"
+                    alt='MARLOPORTS CUMBRE'
+              />
           </div>
           {/* Contenido */}
           <Contenido Width={width}/>
@@ -157,12 +165,15 @@ export default function Home() {
             />
           <div  className="bg-white my-2 shadow-xl">
             <HeaderPag Title='TINTA DE ORO'/>
-            <Image src={Tinta.src}
-                    width={width}
-                    height={Height}
-                    className="w-full my-2 shadow-xl"
-                    alt='Tinta de Oro'
-            />
+            <div>
+              <AudioTag Source={TintaAudio} Name={'Audio-Tinta'}/>
+              <Image src={Tinta.src}
+                      width={width}
+                      height={Height}
+                      className="w-full shadow-xl"
+                      alt='Tinta de Oro'
+              />
+            </div>
           </div>
             <Image src={adVLCK4.src}
                   width={width}
