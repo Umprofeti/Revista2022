@@ -75,7 +75,7 @@ export default function Home() {
         
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white bg-fixed bg-cover flex justify-center items-center">
+      <main className="bg-white md:bg-logo-pattern bg-fixed bg-cover flex justify-center items-center">
         {!load?<div className='bg-transparent flex flex-col gap-0 w-full md:w-[75%]'>
         {/* Portada */}
           <div>
