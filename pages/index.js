@@ -92,6 +92,12 @@ export default function Home() {
                     className="w-full my-2 shadow-xl"
                     alt='ad-1'
               />
+              <Image src={adVLCK1.src}
+                    width={width}
+                    height={Height}
+                    className="w-full my-2 shadow-xl"
+                    alt='ad-2'
+              />
               <Image src={Marlo.src}
                     width={width}
                     height={Height}
@@ -162,15 +168,15 @@ export default function Home() {
           />
           <MentesPoderosas Width={width}/>
           {/* AD6 */}
-          <Image src={ad5.src}
+          <Image src={adVLCK3.src}
                   width={width}
                   height={Height}
                   className="w-full my-2 shadow-xl"
-                  alt='Anuncio Border Village'
+                  alt='Anuncio 3'
           />
           <Delujo  Width={width}/>
           {/* AD7 */} 
-            <Image src={adVLCK3.src}
+            <Image src={ad5.src}
                   width={width}
                   height={Height}
                   className="w-full shadow-xl"
@@ -204,33 +210,27 @@ export default function Home() {
                     alt='Cápsula'
             /> 
           </div>
-          <Image src={adVLCK2.src}
+          <Image src={ad7.src}
                 width={width}
                 height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-4'
           />
           <Tendencia Width={width}/>
-          <Image src={ad7.src}
+          <Image src={adVLCK2.src}
                 width={width}
                 height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
           <Gastronomia/>
-          <Image src={adVLCK1.src}
-                width={width}
-                height={Height}
-                className="w-full my-2 shadow-xl"
-                alt='AD-5'
-          />
-          <Sociedad Width={width} />
           <Image src={ad6.src}
                 width={width}
                 height={Height}
                 className="w-full my-2 shadow-xl"
                 alt='AD-5'
           />
+          <Sociedad Width={width} />
           {/* Contraportada */}
           <div>
             <Image src={ContraPortada.src}
