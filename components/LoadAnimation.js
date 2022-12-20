@@ -11,7 +11,7 @@ export const LoadAnimation = () => {
                         height={0}
                         className="animate-ping w-1/2"
                 />
-                <div className="text-2xl">
+                <div className="text-md md:text-2xl text-center">
                     Cargando Revista ...
                 </div>
             </div>
