@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { HeaderPag } from "./Header";
-import ReactPlayer from 'react-player';
 import audioWins from '../public/static/audio/WINS.mp3'
 import WinsImage from '../public/static/images/WINS.png';
 import { AudioTag } from "./audioTag";
+import {YoutubeEmeded} from "./YoutubeEmbeded"
 
 export const Wins = ({Width}) => {
     return(
@@ -18,6 +18,7 @@ export const Wins = ({Width}) => {
                     alt="Wins"
               />
             </div>
+            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=mokN9ZLKUSI'} />
         </div>
     )
 }
