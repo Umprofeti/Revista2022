@@ -37,7 +37,7 @@ import { LoadAnimation } from '../components/LoadAnimation'
 import { AudioTag } from '../components/audioTag'
 import TintaAudio from '../public/static/audio/IM A REMARKABLE.mp3'
 import Marlo from '../public/static/images/MARLOPORT.png'
-
+import LogoFinal from '../public/static/images/logo-rv-FINAL.png'
 
 export default function Home() {
   const [load, setLoad] = useState(true)
@@ -240,6 +240,12 @@ export default function Home() {
                     alt='Contra Portada'
             />
           </div>
+          <Image src={LogoFinal.src}
+                    width={width}
+                    height={Height}
+                    className="w-full my-2 shadow-xl"
+                    alt='Logo Blanco'
+          />
         </div>: <LoadAnimation/>}
       </main>
     </>
