@@ -59,7 +59,20 @@ export default function Home() {
         <title>RENDEZVOUS VOL.2</title>
         <meta name="description" content="Revista RendezVous Segunda Edicion 2022" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <meta property="og:url" content="https://pruebarevista.rendezvouscorp.com"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="RENDEZVOUS VOL.2"/>
+        <meta property="og:description" content="Revista RendezVous Segunda Edicion 2022"/>
         <meta property="og:image" content={`https://pruebarevista.rendezvouscorp.com${Portada.src}`}/>
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="pruebarevista.rendezvouscorp.com"/>
+        <meta property="twitter:url" content="https://pruebarevista.rendezvouscorp.com"/>
+        <meta name="twitter:title" content="RENDEZVOUS VOL.2"/>
+        <meta name="twitter:description" content="Revista RendezVous Segunda Edicion 2022"/>
+        <meta name="twitter:image" content={`https://pruebarevista.rendezvouscorp.com${Portada.src}`}/>
+        
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-logo-pattern bg-fixed bg-cover flex justify-center items-center">
@@ -127,7 +140,7 @@ export default function Home() {
             <Image src={ad2.src}
                 width={width}
                 height={Height}
-                className="w-full my-2 shadow-xl"
+                className="w-full shadow-xl"
                 alt='ad-2'
           />
           </div>
@@ -160,7 +173,7 @@ export default function Home() {
             <Image src={adVLCK3.src}
                   width={width}
                   height={Height}
-                  className="w-full"
+                  className="w-full shadow-xl"
                   alt='Anuncio VLCK-3'
             />
           <div  className="bg-white my-2 shadow-xl">
@@ -178,7 +191,7 @@ export default function Home() {
             <Image src={adVLCK4.src}
                   width={width}
                   height={Height}
-                  className="w-full"
+                  className="w-full shadow-xl"
                   alt='Anuncio VLCK-3'
             />
           {/* CAPSULA */} 
@@ -187,7 +200,7 @@ export default function Home() {
             <Image src={Capsula.src}
                     width={width}
                     height={Height}
-                    className="w-full my-2 shadow-xl"
+                    className="w-full shadow-xl"
                     alt='Cápsula'
             /> 
           </div>

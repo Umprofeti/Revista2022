@@ -2,8 +2,7 @@ import Image from 'next/image'
 import Arline from '../public/static/images/ARLINE.png'
 import audioArline from '../public/static/audio/ARLINE_FRANCIS.ogg'
 import { HeaderPag } from './Header'
-import { AudioTag } from './audioTag'
-import ReactPlayer from 'react-player'
+import { AudioTag } from './audioTag' 
 import { useState, useEffect } from 'react'
 import { YoutubeEmeded } from './YoutubeEmbeded'
 
@@ -17,7 +16,7 @@ export const Empresarios = ({Width}) => {
         <div className='mb-[-12%] '>
           <div className='bg-white shadow-xl'>
             <HeaderPag Title='EMPRESARIOS'/>
-            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=KsMY12Xis8A'} />
+            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=qDDlSZYdB-c'} />
           </div>
           <div className='bg-white shadow-xl'>
             <HeaderPag Title='EMPRESARIOS'/>
