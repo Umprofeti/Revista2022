@@ -8,7 +8,7 @@ export const Agronegocio = ({Width}) => {
         <div className=''>
             <div className='bg-white my-2 shadow-xl'>
                 <HeaderPag Title='AGRONEGOCIO'/>
-                <YoutubeEmeded Url={'https://www.youtube.com/watch?v=sn-CgB2BLg4&feature=youtu.be'} />
+                <YoutubeEmeded Url={'https://www.youtube.com/watch?v=y3Lxh9SxM8M'} />
             </div>
             <div className='bg-white my-2 shadow-xl'>
                 <HeaderPag Title='AGRONEGOCIO'/>
