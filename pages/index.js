@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useState, useEffect } from 'react'
 import { HeaderPag } from '../components/Header'
 import { Contenido } from '../components/Contenido'
 import { Empresarios } from '../components/Empresarios'
@@ -32,12 +33,22 @@ import Staff from '../public/static/images/STAFF-(PAG).png'
 import CartaEditorial from '../public/static/images/CARTA-EDITORIAL-(PAG).png'
 import Tinta from '../public/static/images/TINTA-DE-ORO-(PAG).png'
 import ContraPortada from '../public/static/images/VILARNAU-CONTRAPORTADA.png'
+import { LoadAnimation } from '../components/LoadAnimation'
 
 
 export default function Home() {
+  const [load, setLoad] = useState(true)
 
   const width = 1500;
   const Height = 0;
+
+  const desabilitarCarga = () => {
+    setLoad(false)
+  }
+
+  useEffect(()=> {
+    desabilitarCarga()
+  }, [])
 
   return (
     <>
@@ -49,7 +60,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-logo-pattern bg-fixed bg-cover flex justify-center items-center">
-        <div className='bg-transparent flex flex-col gap-0 w-full md:w-[75%]'>
+        {!load?<div className='bg-transparent flex flex-col gap-0 w-full md:w-[75%]'>
         {/* Portada */}
           <div>
               <Image src={Portada.src}
@@ -205,7 +216,7 @@ export default function Home() {
                     alt='Contra Portada'
             />
           </div>
-        </div>
+        </div>: <LoadAnimation/>}
       </main>
     </>
   )
