@@ -16,7 +16,7 @@ export const Empresarios = ({Width}) => {
         <div className='mb-[-12%] '>
           <div className='bg-white shadow-xl'>
             <HeaderPag Title='EMPRESARIOS'/>
-            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=qDDlSZYdB-c'} />
+            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=JM9HgfHe5Go'} />
           </div>
           <div className='bg-white shadow-xl'>
             <HeaderPag Title='EMPRESARIOS'/>

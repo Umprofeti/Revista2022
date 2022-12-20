@@ -18,7 +18,7 @@ export const Wins = ({Width}) => {
                     alt="Wins"
               />
             </div>
-            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=mokN9ZLKUSI'} />
+            <YoutubeEmeded Url={'https://www.youtube.com/watch?v=6ZeTgrbkJOs'} />
         </div>
     )
 }
