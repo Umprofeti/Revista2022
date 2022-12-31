@@ -1,21 +1,21 @@
-import Image from "next/image"
-import logo from "../public/RV logo.png"
+import Image from "next/image";
+import logo from "../public/RV logo.png";
 
 export const LoadAnimation = () => {
-
-    return(
-        <div className="bg-white w-[100vw] h-[100vh] flex flex-row items-center justify-center">
-            <div className="w-1/2 flex flex-col justify-center items-center">
-                <Image src={logo.src}
-                        width={1000}
-                        height={0}
-                        className="animate-ping w-1/2"
-                        alt="Logo RV"
-                />
-                <div className="text-md md:text-2xl text-center">
-                    Cargando Revista ...
-                </div>
-            </div>
+  return (
+    <div className="flex h-[100vh] w-[100vw] flex-row items-center justify-center bg-white">
+      <div className="flex w-1/2 flex-col items-center justify-center">
+        <Image
+          src={logo.src}
+          width={1000}
+          height={0}
+          className="w-1/2 animate-ping"
+          alt="Logo RV"
+        />
+        <div className="text-md text-center md:text-2xl">
+          Cargando Revista ...
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
